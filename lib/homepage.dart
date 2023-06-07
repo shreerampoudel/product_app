@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:productapp/data.dart';
 
+
 class Homepage extends StatelessWidget {
   const Homepage({Key? key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 135, 224, 132),
+      backgroundColor: Color.fromARGB(255, 139, 173, 137),
       appBar: AppBar(
         backgroundColor: const Color.fromARGB(255, 8, 26, 26),
         title: const Text("Product App"),
